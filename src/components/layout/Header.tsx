@@ -84,9 +84,10 @@ export function Header() {
             <div className="flex items-center gap-3 lg:hidden">
               <button
                 onClick={() => setShowIntake(true)}
-                className="inline-flex items-center h-9 px-3 text-[12px] font-bold rounded-[3px] bg-[var(--accent)] text-force-white"
+                className="inline-flex items-center gap-1 h-9 px-3 text-[12px] font-bold rounded-[3px] bg-[var(--accent)] text-force-white"
               >
                 Integrate AI Agents
+                <ArrowRight className="w-3 h-3" />
               </button>
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
