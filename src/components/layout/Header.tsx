@@ -75,7 +75,7 @@ export function Header() {
                 onClick={() => setShowIntake(true)}
                 className="inline-flex items-center gap-1.5 px-5 py-2 text-[14px] font-semibold rounded-[3px] bg-[var(--accent)] text-force-white hover:bg-[var(--accent-hover)] transition-all"
               >
-                Work with me
+                Integrate AI Agents
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>
@@ -86,7 +86,7 @@ export function Header() {
                 onClick={() => setShowIntake(true)}
                 className="inline-flex items-center h-9 px-3 text-[12px] font-bold rounded-[3px] bg-[var(--accent)] text-force-white"
               >
-                Work with me
+                Integrate AI Agents
               </button>
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
@@ -137,7 +137,7 @@ export function Header() {
                   onClick={() => { setMobileOpen(false); setShowIntake(true); }}
                   className="flex items-center justify-center gap-2 w-full mt-6 px-5 py-3 text-[15px] font-semibold rounded-md bg-[var(--accent)] text-force-white"
                 >
-                  Work with me <ArrowRight className="w-4 h-4" />
+                  Integrate AI Agents <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
             </motion.div>
