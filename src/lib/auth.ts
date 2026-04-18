@@ -17,12 +17,12 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         const adminPassword = process.env.ADMIN_PASSWORD;
         if (
           adminPassword &&
-          credentials.email === "admin@nicholaus.ai" &&
+          credentials.email === "hi@nicholaus.ai" &&
           credentials.password === adminPassword
         ) {
           return {
             id: "1",
-            email: "admin@nicholaus.ai",
+            email: "hi@nicholaus.ai",
             name: "Admin",
           };
         }

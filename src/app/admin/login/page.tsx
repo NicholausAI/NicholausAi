@@ -62,7 +62,7 @@ export default function AdminLoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               required
               className="w-full px-4 py-3 bg-[var(--surface)] border border-[var(--border)] rounded-lg text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent transition-all"
-              placeholder="admin@nicholaus.ai"
+              placeholder="hi@nicholaus.ai"
             />
           </div>
 
